@@ -115,7 +115,7 @@ const SCORES = [
 const LANGUAGES = [
   { flag: '🇲🇦', name: 'Arabe',    level: 'Maternel' },
   { flag: '🇫🇷', name: 'Français', level: 'Courant'  },
-  { flag: '🇬🇧', name: 'Anglais',  level: 'B1'       },
+  { flag: '🇬🇧', name: 'Anglais',  level: 'A2'       },
   { flag: '🇪🇸', name: 'Espagnol', level: 'A1'       },
 ]
 
