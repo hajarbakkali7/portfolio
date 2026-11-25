@@ -30,9 +30,10 @@ const T = {
       eyebrow: 'Projets',
       title: 'Mes réalisations',
       done: 'Terminé',
-      wip: 'En cours',
+      // wip: 'En cours',
       view: "Voir l'écran",
       close: 'Fermer',
+      visit: 'Voir le site →',
       shot: "Capture d'écran de",
       preview: 'Aperçu de',
       items: {
@@ -52,6 +53,14 @@ const T = {
           title: 'Expense Tracker',
           desc: "Application de gestion des dépenses personnelles avec catégorisation, filtres avancés, tableau de bord récapitulatif et visualisation des données.",
         },
+                sourire: {
+          title: "Sourire Élégance — Cabinet dentaire",
+          desc: "Site vitrine d'un cabinet dentaire à Casablanca : présentation des soins, galerie et prise de rendez-vous via WhatsApp. Design moderne, animations fluides et interface responsive.",
+        },
+        eclat: {
+          title: "Éclat Beauty Studio — Centre d'esthétique",
+          desc: "Site vitrine d'un centre d'esthétique à Rabat : services, packs, galerie animée et réservation via WhatsApp. Animations soignées et interface responsive.",
+        },
       },
     },
     timeline: {
@@ -59,13 +68,13 @@ const T = {
       title: 'Expérience & Formation',
       items: {
         lm3: {
-          period: 'Oct. 2026 · en cours',
+          period: '2026 . 1 mois',
           title: 'Stage — Développement Web (remote)',
           org: '3LM Solutions · 100 % à distance',
           desc: "Optimisation d'EBI Services, plateforme SaaS et CRM d'entreprise : chatbot IA, espace client, générateur de devis, réservation par calendrier et statistiques. Front-end React/Vite (TypeScript), API REST Node.js/Express/MongoDB et agent IA en Python.",
         },
         garage: {
-          period: '2026 · 1 mois',
+          period: '2026 . 1 mois',
           title: 'Stage — Développement Web',
           org: 'Entreprise Tétouan',
           desc: "Développement d'une application web de gestion de garage. Conception et intégration du front-end avec React et back-end Laravel en stack full-stack.",
@@ -141,6 +150,7 @@ const T = {
       wip: 'In progress',
       view: 'View screen',
       close: 'Close',
+      visit: 'Visit site →',
       shot: 'Screenshot of',
       preview: 'Preview of',
       items: {
@@ -160,6 +170,14 @@ const T = {
           title: 'Expense Tracker',
           desc: "Personal expense management app with categorization, advanced filters, a summary dashboard and data visualization.",
         },
+                sourire: {
+          title: "Sourire Élégance — Dental clinic",
+          desc: "Showcase website for a dental clinic in Casablanca: treatments, gallery and appointment booking via WhatsApp. Modern design, smooth animations and responsive layout.",
+        },
+        eclat: {
+          title: "Éclat Beauty Studio — Beauty center",
+          desc: "Showcase website for a beauty center in Rabat: services, packages, animated gallery and booking via WhatsApp. Polished animations and responsive layout.",
+        },
       },
     },
     timeline: {
@@ -167,7 +185,7 @@ const T = {
       title: 'Experience & Education',
       items: {
         lm3: {
-          period: 'Oct 2026 · ongoing',
+          period: '2026 . 1 month',
           title: 'Internship — Web Development (remote)',
           org: '3LM Solutions · 100% remote',
           desc: "Optimization of EBI Services, an enterprise SaaS platform and CRM: AI chatbot, client portal, quote generator, calendar booking and analytics. React/Vite (TypeScript) front-end, Node.js/Express/MongoDB REST API and a Python AI agent.",
@@ -246,9 +264,10 @@ const T = {
       eyebrow: 'Proyectos',
       title: 'Mis trabajos',
       done: 'Terminado',
-      wip: 'En curso',
+      // wip: 'En curso',
       view: 'Ver pantalla',
       close: 'Cerrar',
+      visit: 'Ver el sitio →',
       shot: 'Captura de pantalla de',
       preview: 'Vista previa de',
       items: {
@@ -268,6 +287,14 @@ const T = {
           title: 'Expense Tracker',
           desc: "Aplicación de gestión de gastos personales con categorización, filtros avanzados, panel de resumen y visualización de datos.",
         },
+        sourire: {
+          title: "Sourire Élégance — Clínica dental",
+          desc: "Sitio web de presentación de una clínica dental en Casablanca: tratamientos, galería y reserva de citas por WhatsApp. Diseño moderno, animaciones fluidas e interfaz responsive.",
+        },
+        eclat: {
+          title: "Éclat Beauty Studio — Centro de estética",
+          desc: "Sitio web de presentación de un centro de estética en Rabat: servicios, packs, galería animada y reserva por WhatsApp. Animaciones cuidadas e interfaz responsive.",
+        },
       },
     },
     timeline: {
@@ -275,7 +302,7 @@ const T = {
       title: 'Experiencia y Formación',
       items: {
         lm3: {
-          period: 'Oct. 2026 · en curso',
+          period: '2026 . 1 mes',
           title: 'Prácticas — Desarrollo Web (remoto)',
           org: '3LM Solutions · 100 % a distancia',
           desc: "Optimización de EBI Services, plataforma SaaS y CRM empresarial: chatbot con IA, portal del cliente, generador de presupuestos, reserva con calendario y estadísticas. Front-end React/Vite (TypeScript), API REST Node.js/Express/MongoDB y agente de IA en Python.",
@@ -378,10 +405,12 @@ const SKILL_GROUPS = [
 ]
 
 const PROJECTS = [
-  { id: 'eduflow',     num: '01', stack: ['React', 'Laravel', 'MySQL', 'API REST'], status: 'wip',  github: null, image: '/projects/eduflow.png' },
+  { id: 'eduflow',     num: '01', stack: ['React', 'Laravel', 'MySQL', 'API REST'], status: 'done',  github: null, image: '/projects/eduflow.png' },
   { id: 'heldi',       num: '02', stack: ['PHP', 'JavaScript', 'MySQL'], status: 'done', github: 'https://github.com/hajarbakkali7/HELDI', image: '/projects/heldi.png' },
   { id: 'appointment', num: '03', stack: ['PHP', 'JavaScript', 'MySQL'], status: 'done', github: 'https://github.com/hajarbakkali7/Smart-20Appointment', image: '/projects/smart-appointment.png' },
   { id: 'expense',     num: '04', stack: ['PHP', 'JavaScript', 'MySQL'], status: 'done', github: 'https://github.com/hajarbakkali7/expense-tracker', image: '/projects/expense-tracker.png' },
+  { id: 'sourire', num: '05', stack: ['React', 'Tailwind CSS', 'Framer Motion'], status: 'done', github: null, demo: 'https://sourire-elegance.vercel.app/', image: '/projects/sourire-elegance.png' },
+  { id: 'eclat',   num: '06', stack: ['React', 'Tailwind CSS', 'Framer Motion'], status: 'done', github: null, demo: 'https://eclat-beauty-seven.vercel.app/', image: '/projects/eclat-beauty.png' },
 ]
 
 const TIMELINE = [
@@ -601,7 +630,7 @@ function Hero() {
 
           <div className="hero__stats">
             <div>
-              <div className="hero__stat-num"><span>4</span></div>
+              <div className="hero__stat-num"><span>6</span></div>
               <div className="hero__stat-label">{h.stats[0]}</div>
             </div>
             <div>
@@ -694,6 +723,11 @@ function ProjectModal({ project, onClose }) {
                 GitHub →
               </a>
             )}
+            {project.demo && (
+              <a href={project.demo} target="_blank" rel="noreferrer" className="project-card__link">
+                {t.projects.visit}
+              </a>
+            )}
           </div>
         </div>
       </div>
@@ -745,6 +779,17 @@ function Projects() {
                       onClick={(e) => e.stopPropagation()}
                     >
                       GitHub →
+                    </a>
+                  )}
+                  {p.demo && (
+                    <a
+                      href={p.demo}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="project-card__link"
+                      onClick={(e) => e.stopPropagation()}
+                    >
+                      {t.projects.visit}
                     </a>
                   )}
                 </div>
